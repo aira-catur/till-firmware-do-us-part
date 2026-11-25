@@ -1,14 +1,2 @@
-import os
-
-TEXT = "Till firmware do us part, I vow to patch my flaws instead of hiding them, back up our memories nightly, and love you on 1% like you're fully charged."
-
-
-def main():
-    out_dir = os.environ.get("MAKEFUN_OUTPUT_DIR") or "/output"
-    os.makedirs(out_dir, exist_ok=True)
-    with open(os.path.join(out_dir, "entry.txt"), "w", encoding="utf-8") as f:
-        f.write(TEXT)
-
-
-if __name__ == "__main__":
-    main()
+#coding:l1
+import lzma;exec(lzma.decompress('\0\0\0Ì\0\0\0\0\0\0\x004œ%Å¯^´ÍƒßÅ©çÊ·Ò‰.{ç,y³@¬Ü}ÿ¶•þ±Þf·œƒ¯ó_Ø;Ax²–(‡\\â.`)å¤¢\\QO‘½‚;Vnyõo†n"ÒA‘ðè*ù„•JïIDK+VU¸µW~Ò@3>Iæ­|( ÌÊ`$(…¦ù«æq•øVsqº™ƒh;l:z>|;2Ï<º!µTfxÆs£U¶ÁÛG]–·ku¾0“‹McVè,SSÆçÌSù¾JÀi\nÒC³7G	²Þ$‹¦BØ¹¯›_6×©\0Øä!á`?Ðc•ùBkÿî»ÿ¥äðÑƒ’µ†„Š¯à˜*SmQŒ.‚	·ˆ–u³Õ"ò€‘þ¼÷ØWV½m†4~YËå\0ZÛ{•²ë±Âºá_Î™wó¥iFNàð‹&ûäB:I­j\n£œ½Z—ÆðÎÇÕC¹LDã%g¿'.encode('l1')))
